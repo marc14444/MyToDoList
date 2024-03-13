@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/connexion.css">
+    <title>MyToDoApp</title>
+</head>
+<body>
+    <nav>
+          <a href="../../../index.html" style="text-decoration: none; color: white";><h1>My<span>ToDoApp</span></h1></a>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Connectez-vous</h2>
+        <form class="formulaire">
+            <div class="form-control">
+                <input type="email" required name="email">
+                <label>Email</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required name="motDePasse" maxlength="8" minlength="4">
+                <label>Mot de passe</label>
+            </div>
+            <button>Connexion</button>
+            <div class="form-help">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me">Se vouvenie de moi
+                    <label></label>
+                </div>
+                <a href="#">Besoin d'aide?</a>
+            </div>
+        </form>
+        <p class="messagesDeConnexion"></p><br>
+        <p>Nouveau chez MyToDoApp? <a href="./inscription.html">Creez un compte</a></p>
+        <small>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot.
+            <a href="#">Lean more.</a>
+        </small>
+    </div>
+    <script src="./../js/connexion.js"></script>
+</body>
+</html>

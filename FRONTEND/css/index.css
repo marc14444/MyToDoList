@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+nav{
+          width: 100%;
+          height: 100px;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          box-shadow: 0px 15px 15px gainsboro;
+          position: fixed;
+          top: 0;
+          z-index: 8;
+          margin: 0 auto;
+          background-color: white;    
+          font-family: "Poppins", sans-serif;
+}
+nav ul{
+          display: flex;
+          justify-content: space-between;
+          width: 600px;
+}
+.divButton{
+          width: 180px;
+          height: 50px; 
+          display: flex;
+          justify-content: center;
+}
+.monPremierbutton{
+          width: 180px;
+          height: 50px;
+          border-radius: 40px;
+          background-color: #4070f4;
+          cursor: pointer;
+          border-style: none;
+          font-size: 1em;
+          color: white;
+          font-family: "Poppins", sans-serif;
+}
+.logo span{
+          color: #4070f4;
+}
+nav ul li{
+          list-style: none;
+}
+nav ul li a{
+          text-decoration: none;
+          color: black;
+}
+.logo a{
+          font-size: 2em;
+          text-decoration: none;
+}
+nav ul li a:hover{
+          
+          border-radius: 20px;
+          background:  #4070f4;
+          color: white;
+      
+}
+.logo h1{
+          color: black;
+}
+.leTiredelapage{
+          width: 100%;
+          height: 800px;
+          margin-top: 104px;
+}
+.grande-case{
+          width: 100%;
+          height: 500px;
+          margin-top: 102px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: url('./../image/to-do-list-1731x1080.jpeg');
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+.accessionBoutton{
+          width: 350px;
+          height: 100px;
+          border-radius: 20px;
+          background: #4070f4;
+          border: none;
+          font-size: 1.5rem;
+          font-family: "Poppins", sans-serif;
+          box-shadow: 5px 7px 2px rgba(0, 0, 0, 0.363);
+          cursor: pointer;
+}
+.accessionBoutton:hover{
+          background: black;
+          color: white;
+}
+.monFooter{
+          width: 100%;
+          height: 100px;
+          background: black;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.5rem;
+          font-family: "Poppins", sans-serif;
+}

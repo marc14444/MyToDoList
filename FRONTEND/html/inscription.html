@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/connexion.css">
+    <title>MyToDoApp</title>
+</head>
+<body>
+    <nav>
+          <a href="./../../index.html" style="text-decoration: none; color: white";><h1>My<span>ToDoApp</span></h1></a>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Inscrivez-vous</h2>
+        <form class="formulaire">
+            <div class="form-control">
+                <input type="text" required name="name" id="name">
+                <label>Nom</label>
+            </div>
+            <div class="form-control">
+                <input type="text" required name="prenom" id="prenom">
+                <label>Prenom</label>
+            </div>
+            <div class="form-control">
+                <input type="email" required name="email" id="email">
+                <label>Email</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required name="motDePasse" id="motDePasse" maxlength="8" minlength="4">
+                <label>Mot de passe</label>
+            </div>
+            <div class="form-control">
+                <input type="password" required name="confirmeMotDePasse" id="confirmeMotDePasse" maxlength="8" minlength="4">
+                <label>confirmer Mot de passe</label>
+            </div>
+            <button>Valider</button>
+            <div class="form-help">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me" required name="confirmerInfos">confirmer vos infos
+                    <label></label>
+                </div>
+                <a href="#">Besoin d'aide?</a>
+            </div>
+        </form>
+        <p class="messagesDinscription"></p><br>
+        <p>Vous avez un compte? <a href="./connexion.html">Connectez-vous</a></p>
+        <small>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot.
+            <a href="#">Lean more.</a>
+        </small>
+    </div>
+</body>
+<script src="./../js/inscription.js"></script>
+</html>
