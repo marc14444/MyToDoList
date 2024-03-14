@@ -22,7 +22,7 @@ formulaire.addEventListener('submit', event=>{
         return
     }
     
-    fetch('http://localhost:3000/api/user/',{
+    fetch('https://travelx-0le0.onrender.com/api/user/',{
         method:"POST",
         body: new URLSearchParams(formData)
     }).then(res => res.json())
